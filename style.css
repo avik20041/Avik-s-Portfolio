@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* Header Styles */
+header {
+    background: #333;
+    color: rgb(149, 146, 146);
+    text-align: center;
+    padding: 70px 0;
+}
+header h1 {
+    font-size: 3rem;
+}
+header p {
+    font-size: 1.2rem;
+}
+/* Navigation Styles */
+nav {
+    background: #7b7979;
+    color: rgb(78, 41, 162);
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Section Styles */
+section {
+    padding: 60px 0;
+}
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+section p {
+    font-size: 1.1rem;
+}
+#skills ul {
+    list-style: none;
+}
+#skills ul li {
+    margin: 10px 0;
+}
+/* Projects Section Styles */
+.project-item {
+    margin-bottom: 20px;
+}
+.project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.project-item p {
+    font-size: 1rem;
+}
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+form button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #555;
+}
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
